@@ -71,8 +71,8 @@
 }
 
 .selected{
-    height: 55px;
-    width: 55px;
+    height: 50px;
+    width: 50px;
     border: 1px;
     border-style: solid;
     border-color: black;
@@ -90,7 +90,7 @@
     height: 250px;
 }
 
-#generate-board{
-    //adicionar
+.line{
+    display: inline-flexbox;
+    height: 40px;
 }
-
