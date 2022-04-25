@@ -2,95 +2,95 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
-*{
-    /* box-sizing: border-box; */
-    margin: 0;
-    text-align: center;
+* {
+  /* box-sizing: border-box; */
+  margin: 0;
+  text-align: center;
 }
 
 /* Titulo */
 
-#title{
-    font-family: Roboto, sans-serif;
-    font-size: 35px;
+#title {
+  font-family: Roboto, sans-serif;
+  font-size: 35px;
 }
 
 /* menu de escolha */
 
-#color-pallete{
-    width: 250px;
-    height: 50px;
-    /* justify-content: center; */
-    /* padding-bottom: 5px; */
-    /* display: inline-flex; */
+#color-pallete {
+  width: 250px;
+  height: 50px;
+  /* justify-content: center; */
+  /* padding-bottom: 5px; */
+  /* display: inline-flex; */
 }
 
-.color{
-    height: 50px;
-    width: 50px;
-    border: 1px;
-    border-style: solid;
-    border-color: black;
-    display: inline-flex;
+.color {
+  height: 50px;
+  width: 50px;
+  border: 1px;
+  border-style: solid;
+  border-color: black;
+  display: inline-flex;
 }
 
 /* Cores */
 
-#paint-black{
-    background-color: black;
+#paint-black {
+  background-color: black;
 }
 
-#paint-red{
-    background-color: red;
+#paint-red {
+  background-color: red;
 }
 
-#paint-blue{
-    background-color: blue;
+#paint-blue {
+  background-color: blue;
 }
 
-#paint-green{
-    background-color: green;
+#paint-green {
+  background-color: green;
 }
 
 
 /* quadro de pintura */
 
-#pixel-board{
-    margin: auto;
-    display: inline-flex;
+#pixel-board {
+  margin: auto;
+  display: inline-flex;
 }
 
-.pixel{
-    height: 50px;
-    width: 50px;
-    /* margin: 1px; */
-    border: 1px;
-    border-style: solid;
-    border-color: black;
-    background-color: white;
+.pixel {
+  height: 50px;
+  width: 50px;
+  /* margin: 1px; */
+  border: 1px;
+  border-style: solid;
+  border-color: black;
+  background-color: white;
 }
 
-.selected{
-    height: 50px;
-    width: 50px;
-    border: 1px;
-    border-style: solid;
-    border-color: black;
-    display: inline-flex;
+.selected {
+  height: 50px;
+  width: 50px;
+  border: 1px;
+  border-style: solid;
+  border-color: black;
+  display: inline-flex;
 }
 
-#clear-board{
-    background-color: white;
+#clear-board {
+  background-color: white;
 }
 
-#board-size{
-    background-color: white;
-    text-align: center;
-    width: 250px;
-    height: 250px;
+#board-size {
+  background-color: white;
+  text-align: center;
+  width: 250px;
+  height: 250px;
 }
 
-.line{
-    display: inline-flexbox;
-    height: 40px;
+.line {
+  display: inline-flexbox;
+  height: 40px;
 }
