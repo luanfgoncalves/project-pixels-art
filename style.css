@@ -1,23 +1,42 @@
-#title{
-    //adicionar
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
+#title{
+    padding: 10px 0;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-size: 35px;
+}
+------------------------------------------------------------------------
 #color-pallete{
-    //adicionar
+    width: auto;
+    height: 50px;
+    align-items: center;
+    margin: auto;
+    padding: auto;
+    display: inline-block;
 }
 
 .color{
-    //adicionar
+    height: 50px;
+    width: 50px;
+    border: 1px;
+    border-radius: 1px;
+    border-color: black;
+    margin: 1px;
 }
-
+------------------------------------------------------------------------
 #pixel-board{
-    //adicionar
+    margin: auto;
 }
 
 .pixel{
-    //adicionar
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    background-color: white;
 }
-
+-----------------------------------------------------------------------
 .selected{
     //adicionar
 }
@@ -27,10 +46,28 @@
 }
 
 #board-size{
-    //adicionar
+    background-color: white;
+    text-align: center;
+    width: 25px;
+    height: 25px;
 }
 
 #generate-board{
     //adicionar
 }
+-----------------------------------------------------------------------
+#paint-black{
+    background-color: black;
+}
 
+#paint-red{
+    background-color: red;
+}
+
+#paint-blue{
+    background-color: blue;
+}
+
+#paint-green{
+    background-color: green;
+}
