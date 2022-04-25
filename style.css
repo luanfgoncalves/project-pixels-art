@@ -63,11 +63,13 @@
 .pixel {
   height: 40px;
   width: 40px;
-  /* margin: 1px; */
+  box-sizing: border-box;
+  margin: 1px;
   border: 1px;
   border-style: solid;
   border-color: black;
   background-color: white;
+  display: inline-flexbox;
 }
 
 .selected {
