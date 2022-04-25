@@ -31,7 +31,7 @@
   border: 1px;
   border-style: solid;
   border-color: black;
-  display: inline-flex;
+  display: inline-block;
 }
 
 /* Cores */
@@ -57,19 +57,19 @@
 
 #pixel-board {
   margin: auto;
-  display: inline-flex;
+  display: block;
+  height: fit-content;
+  width: fit-content;
 }
 
 .pixel {
   height: 40px;
   width: 40px;
-  box-sizing: border-box;
-  margin: 1px;
   border: 1px;
   border-style: solid;
   border-color: black;
   background-color: white;
-  display: inline-flexbox;
+  display: inline-flex;
 }
 
 .selected {
@@ -83,6 +83,7 @@
 
 #clear-board {
   background-color: white;
+  margin: 5px;
 }
 
 #board-size {
@@ -93,6 +94,6 @@
 }
 
 .line {
-  display: inline-flexbox;
+  display: block;
   height: 40px;
 }

@@ -10,7 +10,7 @@ const paintBlack = document.getElementById('paint-black');
 const paintRed = document.getElementById('paint-red');
 const paintBlue = document.getElementById('paint-blue');
 const paintGreen = document.getElementById('paint-green');
-const selectedColor = document.querySelector('.selected');
+const selectedColor = document.getElementsByClassName('selected');
 
 const eraser = document.getElementById('clear-board');
 /* const ereased = document.getElementsByClassName('pixel'); */
