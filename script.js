@@ -18,38 +18,44 @@ const ereased = document.getElementsByClassName('pixel');
 // eventos e funções
 
 colorPallet.addEventListener('click', function (event) {
-  console.log('copiou');
+  console.log('clique na paleta reconhecido');
   for (let index = 0; index < 4; index += 1) {
     if (event.target === colors[index]) {
       event.target.classList.add('selected');
+      console.log('cor selecionada')
     } else {
       colors[index].classList.remove('selected');
+      console.log('cor desselecionada')
     }
   }
 });
 
 pixelBoard.addEventListener('click', function (event) {
-  console.log('colou');
+  console.log('clique no quadro reconhecido');
   if (selectedColor === paintBlack) {
     const localEvent = event.target;
     localEvent.style.backgroundColor = 'black';
+    console.log('cor preta aplicada')
   }
   if (selectedColor === paintRed) {
     const localEvent = event.target;
     localEvent.style.backgroundColor = 'red';
+    console.log('cor vermelha aplicada')
   }
   if (selectedColor === paintBlue) {
     const localEvent = event.target;
     localEvent.style.backgroundColor = 'blue';
+    console.log('cor azul aplicada')
   }
   if (selectedColor === paintGreen) {
     const localEvent = event.target;
     localEvent.style.backgroundColor = 'green';
+    console.log('cor verde aplicada')
   }
 });
 
 eraser.addEventListener('click', function () {
-  console.log('apagou');
+  console.log('clique no botão reconhecido');
   for (let index = 0; index < eraser.length; index += 1) {
     eraser[index].style.backgroundColor = 'white';
   }

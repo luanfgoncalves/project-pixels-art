@@ -61,8 +61,8 @@
 }
 
 .pixel {
-  height: 50px;
-  width: 50px;
+  height: 40px;
+  width: 40px;
   /* margin: 1px; */
   border: 1px;
   border-style: solid;
@@ -71,8 +71,8 @@
 }
 
 .selected {
-  height: 50px;
-  width: 50px;
+  height: 52px;
+  width: 52px;
   border: 1px;
   border-style: solid;
   border-color: black;
