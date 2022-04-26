@@ -57,6 +57,8 @@
 
 #pixel-board {
   margin: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
   display: block;
   height: fit-content;
   width: fit-content;
@@ -89,8 +91,8 @@
 #board-size {
   background-color: white;
   text-align: center;
-  width: 250px;
-  height: 250px;
+  width: 170px;
+  height: 16px;
 }
 
 .line {
