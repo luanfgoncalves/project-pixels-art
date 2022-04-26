@@ -14,7 +14,7 @@
   font-size: 35px;
 }
 
-/* menu de escolha */
+/* Paleta de Cores */
 
 #color-pallete {
   width: 250px;
@@ -71,27 +71,33 @@
 }
 
 .selected {
-  height: 52px;
-  width: 52px;
+  height: 50px;
+  width: 50px;
   border: 1px;
   border-style: solid;
   border-color: black;
-  display: inline-flex;
-}
-
-#clear-board {
-  background-color: white;
-  margin: 5px;
-}
-
-#board-size {
-  background-color: white;
-  text-align: center;
-  width: 170px;
-  height: 16px;
+  display: inline-flexbox;
+  box-shadow: 12px;
 }
 
 .line {
   display: block;
   height: 40px;
+}
+
+/* Input */
+#board-size {
+  text-align: center;
+  width: 120px;
+  height: 16px;
+}
+
+/* botões */
+
+#clear-board {
+  margin: 3px;
+}
+
+#generate-board {
+  margin: 3px;
 }

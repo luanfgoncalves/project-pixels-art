@@ -9,21 +9,19 @@ const eraser = document.getElementById('clear-board');
 
 // seletor de cores - Funcionou!!
 colorPallet.addEventListener('click', function cliqueNaPaleta(event) {
-  console.log('clique na paleta reconhecido');
   for (let index = 0; index < 4; index += 1) {
     if (event.target === colors[index]) {
       event.target.classList.add('selected');
       console.log('cor selecionada');
     } else {
       colors[index].classList.remove('selected');
-      console.log('cor desselecionada');
     }
   }
 });
 
 // botão de Limpar - funcionou
 eraser.addEventListener('click', function cliqueNoBotao() {
-  const pixels = document.getElementsByClassName('pixel'); //precisa ser classe para gerar um array
+  const pixels = document.getElementsByClassName('pixel');
   console.log('clique no botão reconhecido');
   for (let index = 0; index < pixels.length; index += 1) {
     pixels[index].style.backgroundColor = 'white';
@@ -39,18 +37,14 @@ pixelBoard.addEventListener('click', function cliqueNoQuadro(evt) {
   const selectedColor = document.querySelector('.selected');
   const clickedPixel = evt.target;
   const classChecker = evt.target.classList.contains('pixel');
-  console.log('clique no quadro reconhecido');
   if (selectedColor === paintBlack && classChecker === true) {
     clickedPixel.style.backgroundColor = 'black';
-    console.log('cor preta aplicada');
   }
   if (selectedColor === paintRed && classChecker === true) {
     clickedPixel.style.backgroundColor = 'red';
-    console.log('cor vermelha aplicada');
   }
   if (selectedColor === paintBlue && classChecker === true) {
     clickedPixel.style.backgroundColor = 'blue';
-    console.log('cor azul aplicada');
   }
   if (selectedColor === paintGreen && classChecker === true) {
     clickedPixel.style.backgroundColor = 'green';
@@ -60,7 +54,4 @@ pixelBoard.addEventListener('click', function cliqueNoQuadro(evt) {
 
 // gerador de pixeis - addicionar abaixo
 
-
-
-//Referencias:
-// https://bobbyhadz.com/blog/javascript-check-if-event-target-has-class#:~:text=To%20check%20if%20event.,target.
+// Referencias: https://bobbyhadz.com/blog/javascript-check-if-event-target-has-class#:~:text=To%20check%20if%20event.,target.
